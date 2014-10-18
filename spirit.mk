@@ -6,10 +6,10 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 800
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/spirit/config/common_full_tablet_wifionly.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/spirit/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/asus/grouper/full_grouper.mk)
